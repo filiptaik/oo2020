@@ -1,3 +1,3 @@
 enum CharacterType{
-    WARRIOR, WIZARD, GOBLIN
+    WARRIOR, WIZARD, GOBLIN //pushin uute settingutega
 }
