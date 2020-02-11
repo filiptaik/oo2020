@@ -78,4 +78,4 @@ public class HelloWorld {
         }
         System.out.println(number);
     }
-}
+} //testin kas saan oma arvutist pushida 1.0
