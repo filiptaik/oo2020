@@ -1,3 +1,3 @@
-enum CharacterType{
-    WARRIOR, WIZARD, GOBLIN //pushin uute settingutega
+enum CharacterType {
+    PLAYER, MONSTER, NPC
 }
