@@ -1,23 +1,25 @@
 import java.util.*;
 
+
 /**
  * Main
  */
 public class Main {
+    
     public static void main(String[] args) {
         boolean xd;
         Cat cat1 = new Cat();
         Dog dog1 = new Dog();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Kas su loom on agro?");
+        String input = scanner.next();
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ütle jah, kui kass on ohtlik, ei kui mitte");
-        String input = sc.next();
-        
         if(input.equals("jah")){
             xd = true;
         } else {
             xd = false;
         }
+
         //System.out.println(xd);
 
         cat1.sleep(22);
@@ -25,7 +27,7 @@ public class Main {
         cat1.speak();
         System.out.println();
         dog1.sleep(10);
-        dog1.attack(true);
+        dog1.attack(xd);
         dog1.speak();
         
 
@@ -40,12 +42,7 @@ public class Main {
         test.getBirthday(personalCode);
 
 
-
-
-
-
-
-        sc.close();
+        scanner.close();
         sc2.close();
     }
     

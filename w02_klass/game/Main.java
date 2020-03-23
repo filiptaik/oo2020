@@ -8,12 +8,21 @@ public class Main {
 
     public static void main(String[] args) {
         World world = new World(20, 10);
+
         Character player = new Character("Filip", CharacterType.PLAYER, "X");
         Character enemy = new Character(5, 5, "Sipsik", CharacterType.MONSTER, "o");
         Character npc = new Character(3, 3, "Helper", CharacterType.NPC, "N");
+
+
+        
         Item[] itemList = new Item[5];
         itemList[0] = new Item("Saabas", ItemType.WEAPON, 1.5);
-        System.out.println(itemList[0]);
+        itemList[1] = new Item("Kiiver", ItemType.ARMOR, 3);
+
+        Inventory testInv = new Inventory(100);
+        testInv.addItem(itemList[1]);
+        Inventory.showInventory();
+        //System.out.println(itemList[0]);
 
         world.addCharacters(Arrays.asList(
             enemy, 
@@ -24,6 +33,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String input = "";
+        
+        
 
         world.render();
         while(!input.equals("end")){
@@ -48,5 +59,6 @@ public class Main {
             world.render();
         }
         scanner.close();
+
     }
 }

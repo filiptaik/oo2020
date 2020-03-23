@@ -1,14 +1,19 @@
 
 
 public class ESTCode implements PersonalCodeBehavior {
-    String gender = "";
-    String millenium = "";
-    String yearNumber = "";
+    private String gender;
+    private String yearNumber = null;
+    private String millenium = null;
+    private String yearNum;
+    private Character first1;
+    private String birthDay;
+    private String birthMonth;
+    
 
-    public String getGender(String estCode) {
+    void getGender(String estCode) {
         
         Character first = estCode.charAt(0);
-        //System.out.println(first);
+        gender = null;
         if(first.equals('1') || first.equals('3') || first.equals('5') || first.equals('7')){
             gender = "mees";
             System.out.println("Sugu on " + gender );
@@ -16,16 +21,18 @@ public class ESTCode implements PersonalCodeBehavior {
             gender = "naine";
             System.out.println("Sugu on " + gender );
         }
-        return gender;
+
     }
 
 
 
 
-    public int getYear(String estCode) {
-        String yearNum = estCode.substring(1, 3);
+    void getYear(String estCode) {
+        
+        first1 = estCode.charAt(0);
+        yearNum = estCode.substring(1, 3);
 
-        Character first1 = estCode.charAt(0);
+        
 
 
         if(first1.equals('1') || first1.equals('2')){
@@ -47,19 +54,18 @@ public class ESTCode implements PersonalCodeBehavior {
         } else {
             System.out.println("Sisesta korrektne isikukood");
         }
-        return 0;
+
     }
 
 
 
 
-    public String getBirthday(String estCode) {
+    void getBirthday(String estCode) {
 
-        String birthDay = estCode.substring(5, 7);
-        String birthMonth = estCode.substring(3, 5);
+        birthDay = estCode.substring(5, 7);
+        birthMonth = estCode.substring(3, 5);
         System.out.println("Sünnipäev on " + birthDay + "." + birthMonth);
 
-        return null;
     }
 
 

@@ -6,7 +6,7 @@ import java.util.List;
  */
 public class Inventory {
     private int inventoryMaxSize = 0;
-    List<Item> inventory = new ArrayList<>();
+    static List<Item> inventory = new ArrayList<>();
 
     public Inventory(int size){
         this.inventoryMaxSize = size;
@@ -22,4 +22,12 @@ public class Inventory {
     }
 
     // lisada removeItem, showInventory
+
+    static void showInventory() {
+        for(int i = 0; i < inventory.size(); i++) {   
+            System.out.print(inventory.get(i));
+        }  
+       // System.out.println(inventory.size());
+        //return inventory.toString();
+    }
 }
