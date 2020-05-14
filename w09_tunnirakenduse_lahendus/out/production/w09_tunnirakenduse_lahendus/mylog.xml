@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-14T15:21:49.796714500Z</date>
+  <millis>1586877709796</millis>
+  <nanos>714500</nanos>
+  <sequence>0</sequence>
+  <logger>Example</logger>
+  <level>WARNING</level>
+  <class>Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>/ by zero</message>
+</record>
+<record>
+  <date>2020-04-14T15:21:49.907802300Z</date>
+  <millis>1586877709907</millis>
+  <nanos>802300</nanos>
+  <sequence>1</sequence>
+  <logger>Example</logger>
+  <level>INFO</level>
+  <class>Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>msg</message>
+</record>
+<record>
+  <date>2020-04-14T15:21:49.926182500Z</date>
+  <millis>1586877709926</millis>
+  <nanos>182500</nanos>
+  <sequence>2</sequence>
+  <logger>Example</logger>
+  <level>WARNING</level>
+  <class>Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Index 3 out of bounds for length 3</message>
+</record>
+</log>

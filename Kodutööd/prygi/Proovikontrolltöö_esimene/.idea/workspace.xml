@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2114b867-3a49-49c5-8e46-103cb5eb269f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Tictac/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tictac/TTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tictac/TTTMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tictac/TTTTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tictac/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tictac/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warehouse/Fridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warehouse/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warehouse/Warehouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodutoo_1/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kodutoo_1/Hashmap.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bnVoSsEr9Ds6DW72o1UE5UlrfL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2114b867-3a49-49c5-8e46-103cb5eb269f" name="Default Changelist" comment="" />
+      <created>1589268019044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589268019044</updated>
+    </task>
+    <servers />
+  </component>
+</project>

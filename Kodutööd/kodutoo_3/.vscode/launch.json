@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Lists<kodutoo_3_996b2d62>",
+            "request": "launch",
+            "mainClass": "Lists",
+            "projectName": "kodutoo_3_996b2d62"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Map<kodutoo_3_996b2d62>",
+            "request": "launch",
+            "mainClass": "Map",
+            "projectName": "kodutoo_3_996b2d62"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Set<kodutoo_3_996b2d62>",
+            "request": "launch",
+            "mainClass": "Set",
+            "projectName": "kodutoo_3_996b2d62"
+        }
+    ]
+}

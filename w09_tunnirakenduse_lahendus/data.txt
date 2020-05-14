@@ -1,0 +1,5 @@
+Tallinn,1
+Tartu,2
+Pärnu,3
+Kuressaare,4
+rapla,9

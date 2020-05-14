@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-14T15:41:49.399769Z</date>
+  <millis>1586878909399</millis>
+  <nanos>769000</nanos>
+  <sequence>0</sequence>
+  <logger>homework.Tunnitöö</logger>
+  <level>WARNING</level>
+  <class>homework.Tunnitöö</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>C:\fail.txt (The system cannot find the file specified)</message>
+</record>
+<record>
+  <date>2020-04-14T15:41:49.497546500Z</date>
+  <millis>1586878909497</millis>
+  <nanos>546500</nanos>
+  <sequence>1</sequence>
+  <logger>homework.Tunnitöö</logger>
+  <level>INFO</level>
+  <class>homework.Tunnitöö</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Faili pole olemas</message>
+</record>
+</log>

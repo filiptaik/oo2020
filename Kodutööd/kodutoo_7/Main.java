@@ -11,7 +11,7 @@ public class Main {
         Cat cat1 = new Cat();
         Dog dog1 = new Dog();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Kas su loom on agro?");
+        System.out.println("Kas su loom on kuri?");
         String input = scanner.next();
 
         if(input.equals("jah")){

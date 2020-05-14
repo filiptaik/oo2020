@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Example<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyThreads<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "MyThreads",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StreamFiles<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "StreamFiles",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Streams<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "Streams",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Tunnitöö<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "Tunnitöö",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Tunnitöö2<w09_tunnirakenduse_lahendus_9d0cc2d>",
+            "request": "launch",
+            "mainClass": "Tunnitöö2",
+            "projectName": "w09_tunnirakenduse_lahendus_9d0cc2d"
+        }
+    ]
+}

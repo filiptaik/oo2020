@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices</title>
+</head>
+<body>
+    <h1>1 EUR = 1,08$</h1>
+    <h1>1 USD = 0,92€</h1>
+    <br>
+    <div th:switch="${value}">
+        <h1 th:case="eur" th:text="${amount} + ' dollarit on ' + ${sum} + ' EUR'"></h1>
+        <h1 th:case="usd" th:text="${amount} + ' eurot on ' + ${sum} + ' USD'"></h1>
+    </div>
+</body>
+</html>

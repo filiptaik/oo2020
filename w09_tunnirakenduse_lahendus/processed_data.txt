@@ -1,0 +1,4 @@
+1 | Tallinn
+2 | Tartu
+3 | Pärnu
+4 | Kuressaare
