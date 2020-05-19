@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices</title>
+    <style>
+        .topnav {background-color: black;overflow: hidden}
+        .topnav a {float: left;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 17px;}
+        .topnav a:hover {background-color: #ddd;color: black;}
+        .topnav a.active {background-color: blue;color: white;}
+        body{background-color: #0eb8e3}
+    </style>
+</head>
+<body>
+<div th:replace="fragments/navbar :: navbar">
+</div>
+<div style="text-align:center">
+    <h1>1 EUR = 1,08$</h1>
+    <h1>1 USD = 0,92€</h1>
+    <br>
+    <div th:switch="${value}">
+        <h1 th:case="eur" th:text="${amount} + ' dollarit on ' + ${sum} + ' EUR'"></h1>
+        <h1 th:case="usd" th:text="${amount} + ' eurot on ' + ${sum} + ' USD'"></h1>
+    </div>
+    <div>
+</div>
+    </div>
+</body>
+</html>

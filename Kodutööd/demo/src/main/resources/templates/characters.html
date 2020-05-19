@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Characters</title>
+    <style>
+        #x::before{content: "X-coordinate: ";}
+        #y::before{content: "Y-coordinate: ";}
+        #gender::before{content: "Gender: ";}
+        #type::before{content: "Character type: ";}
+        #head{text-align: center;}
+        #characters{text-align: center;list-style-type: none; border-style: solid; border-radius: 10%; margin: 10px;
+            width: 200px; height: 120px; display:flex; justify-content: center;}
+        #name{font-size: large;}
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1>Character sheets:</h1>
+        <h1 th:text="${characters}"></h1>
+    </div>
+    <br>
+    <div th:each="character : ${characters}">
+        <ul id="characters">
+            <li id="name" th:text="${character.name}"></li>
+            <br>
+            <li id="x" th:text="${character.x}"></li>
+            <li id="y" th:text="${character.y}"></li>
+            <li id="gender" th:text="${character.gender}"></li>
+            <li id="type" th:text="${character.type}"></li>
+        </ul>
+        <br>
+        <br>
+    </div>
+</body>
+</html>
